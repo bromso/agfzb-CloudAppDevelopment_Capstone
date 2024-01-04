@@ -1,0 +1,86 @@
+{
+  "folders": [
+		{
+			"name": "☁️ Cloud",
+			"path": "./cloudant/data"
+		},
+		{
+			"name": "⚛️ Functions",
+			"path": "./functions"
+		},
+		{
+			"name": "🌐 App",
+			"path": "./server/djangoapp"
+		},
+		{
+			"name": "⚙️ Backend",
+			"path": "./server/djangobackend"
+		},
+		{
+			"name": "🏭 Workflows",
+			"path": "./.github/workflows"
+		},
+		{
+			"name": "📰 Templates",
+			"path": "./server/djangoapp/templates"
+		},
+		{
+			"name": "🌇 Static",
+			"path": "./server/djangoapp/static"
+		},
+		{
+			"name": "🚧 Issues",
+			"path": "./.github/ISSUE_TEMPLATE"
+		},
+		{
+			"name": "📑 Documentation",
+			"path": "./.github"
+		},
+		{
+			"name": "🏠 Root",
+			"path": "./"
+		},
+	],
+  "settings": {
+		"editor.formatOnPaste": false,
+		"editor.formatOnType": false,
+		"editor.formatOnSave": true,
+		"editor.formatOnSaveMode": "file",
+		"files.autoSave": "onFocusChange",
+		"files.exclude": {
+			"__pycache__": true,
+			"migrations": true,
+			"ISSUE_TEMPLATE": true,
+			".github": true,
+			".vscode": true,
+			"server": true,
+			"functions": true,
+			"cloudant": true,
+			"static": true,
+			"templates": true,
+			"workflows": true,
+			".next": true,
+		},
+		"scm.alwaysShowActions": false,
+		"breadcrumbs.showEnumMembers": true,
+	},
+  "extensions": {
+    "recommendations": [
+			"aaron-bond.better-comments",
+			"streetsidesoftware.code-spell-checker",
+			"editorconfig.editorconfig",
+			"christian-kohler.path-intellisense",
+			"ibm.output-colorizer",
+			"redhat.vscode-yaml",
+			"ms-azuretools.vscode-docker",
+			"github.vscode-github-actions",
+			"ibm.ibmcloud-account",
+			"ibm.ibm-developer",
+			"ms-python.vscode-pylance",
+			"ms-python.python",
+			"vivaxy.vscode-conventional-commits",
+			"ms-vscode-remote.remote-containers",
+			"ms-kubernetes-tools.vscode-kubernetes-tools",
+		]
+  }
+}

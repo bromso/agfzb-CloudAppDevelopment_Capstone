@@ -67,7 +67,7 @@ Containerize your application
 ### Clone
 Clone the project
 ```sh
-cd Full\ Stack\ Cloud\ Dev\ Capstone\ Project/server
+cd agfzb-CloudAppDevelopment_Capstone
 ```
 
 ### Install
@@ -81,23 +81,26 @@ python3 -m pip install -r requirements.txt
 Create a [new Django Secret Key](https://humberto.io/blog/tldr-generate-django-secret-key/) 
 
 ### Server
+Make migrations:
+```sh
+python3 manage.py makemigrations
+```
+Migrate the database:
+```sh
+python3 manage.py migrate
+```
 Run the development server:
--   ```sh
-    python3 manage.py makemigrations
-    ```
--   ```sh
-    python3 manage.py migrate
-    ```
--   ```sh
-    python3 manage.py runserver
-    ```
+```sh
+python3 manage.py runserver
+```
 
 ### User
 Create a new superuser:
--   ```sh
-    python3 manage.py createsuperuser
-    ```
-- Log in via the admin site (just add `/admin` at the end of the url)
+```sh
+python3 manage.py createsuperuser
+```
+
+Log in via the admin site (just add `/admin` at the end of the url, eg. [localhost:8000/admin](localhost:8000/admin))
 
 ### Cloud Foundry
 Push to IBM Cloud Foundry:
@@ -107,22 +110,27 @@ Push to IBM Cloud Foundry:
     ìbmcloud cf push
     ```
 ### Git
-Connect, Commit and push to git
--   ```sh
-    git clone https://github.com/bromso/
-    ```agfzb-CloudAppDevelopment_Capstone.git
--   ```sh
-    git config --global user.email “your@email.com”
-    ```
--   ```sh
-    git config --global user.name “username”
-    ```
--   ```sh
-    git add .
-    ```
--   ```sh
-    git commit -m "your message"
-    ```
--   ```sh
-    git push
-    ```
+Clone the repository:
+```sh
+git clone https://github.com/bromso/agfzb-CloudAppDevelopment_Capstone.git
+```
+Connect your email:
+```sh
+git config --global user.email “your@email.com”
+```
+Connect your username:
+```sh
+git config --global user.name “username”
+```
+Add the files you want to commit:
+```sh
+git add .
+```
+Add a commit message:
+```sh
+git commit -m "your message"
+```
+Push your changes:
+```sh
+git push
+```

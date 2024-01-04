@@ -67,6 +67,19 @@
 		},
 		"scm.alwaysShowActions": false,
 		"breadcrumbs.showEnumMembers": true,
+		"cSpell.words": [
+			"azuretools",
+			"cloudant",
+			"commitlint",
+			"djangoapp",
+			"djangobackend",
+			"ibmcloud",
+			"ibmfullstackcapstone",
+			"kohler",
+			"pycache",
+			"pylance",
+			"vivaxy"
+		],
 	},
   "extensions": {
     "recommendations": [

@@ -1,7 +1,7 @@
 .vscode
 
 # Byte-compiled / optimized / DLL files
-__pycache__/
+# __pycache__/
 *.py[cod]
 *$py.class
 
@@ -137,5 +137,5 @@ dmypy.json
 # server/djangoapp/templates/djangoapp/__pycache__/
 server/djangoapp/migrations/
 .DS_Store
-*.pyc
+
 

@@ -37,6 +37,10 @@
 			"path": "./.changeset"
 		},
 		{
+			"name": "🚀 Launcher",
+			"path": "./.vscode"
+		},
+		{
 			"name": "📑 Documentation",
 			"path": "./.github"
 		},

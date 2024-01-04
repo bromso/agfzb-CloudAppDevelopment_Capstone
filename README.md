@@ -69,6 +69,11 @@ Containerize your application
 ### Clone
 Clone the project
 ```sh
+git clone https://github.com/bromso/agfzb-CloudAppDevelopment_Capstone.git
+```
+
+Go to the project directory
+```sh
 cd agfzb-CloudAppDevelopment_Capstone
 ```
 

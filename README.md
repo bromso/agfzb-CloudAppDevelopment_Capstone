@@ -1,5 +1,9 @@
 # Final Project Template
 
+[![Lint Code](https://github.com/bromso/agfzb-CloudAppDevelopment_Capstone/actions/workflows/linter.yml/badge.svg)](https://github.com/bromso/agfzb-CloudAppDevelopment_Capstone/actions/workflows/linter.yml)
+
+[![Build and deploy to IBM Cloud Foundry](https://github.com/bromso/agfzb-CloudAppDevelopment_Capstone/actions/workflows/push-cf.yml/badge.svg)](https://github.com/bromso/agfzb-CloudAppDevelopment_Capstone/actions/workflows/push-cf.yml)
+
 The final project for this course has several steps that you must complete. 
 To give you an overview of the whole project, all the high-level steps are listed below. 
 The project is then divided into several smaller labs that give the detailed instructions for each step. 

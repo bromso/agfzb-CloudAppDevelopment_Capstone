@@ -70,14 +70,17 @@
 		"cSpell.words": [
 			"agfzb",
 			"azuretools",
+			"bento",
 			"cloudant",
 			"commitlint",
 			"createsuperuser",
 			"djangoapp",
 			"djangobackend",
+			"helpwanted",
 			"ibmcloud",
 			"ìbmcloud",
 			"ibmfullstackcapstone",
+			"intendation",
 			"kohler",
 			"makemigrations",
 			"Prework",
@@ -85,8 +88,11 @@
 			"pylance",
 			"Quickstart",
 			"runserver",
+			"strapi",
+			"tada",
 			"theia",
-			"vivaxy"
+			"vivaxy",
+			"wontfix"
 		],
 	},
   "extensions": {

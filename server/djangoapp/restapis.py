@@ -52,7 +52,7 @@ def get_dealers_from_cf(url):
     # For each dealer in the response
     for dealer in dealers:
         # Get its data in `doc` object
-        dealer_doc = dealer["doc"]
+        dealer_doc = dealer
         # Create a CarDealer object with values in `doc` object
         dealer_obj = CarDealer(address=dealer_doc["address"], city=dealer_doc["city"], full_name=dealer_doc["full_name"],
                                id=dealer_doc["id"], lat=dealer_doc["lat"], long=dealer_doc["long"],
@@ -126,8 +126,8 @@ def get_dealer_reviews_from_cf(url, dealer_id):
                 purchase_date = review["purchase_date"]
 
                 # Creating a review object
-                review_obj = DealerReview(dealership=dealership, id=id, name=name, 
-                                          purchase=purchase, review=review_content, car_make=car_make, 
+                review_obj = DealerReview(dealership=dealership, id=id, name=name,
+                                          purchase=purchase, review=review_content, car_make=car_make,
                                           car_model=car_model, car_year=car_year, purchase_date=purchase_date
                                           )
 

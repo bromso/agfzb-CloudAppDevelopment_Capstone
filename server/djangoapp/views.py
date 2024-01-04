@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect, HttpResponse
 from django.contrib.auth.models import User
 from django.shortcuts import get_object_or_404, render, redirect
-from .models import CarModel 
+from .models import CarModel
 from .restapis import get_dealer_by_id, get_dealers_from_cf,get_dealers_by_state,get_dealer_reviews_from_cf,post_request
 from django.contrib.auth import login, logout, authenticate
 from django.contrib import messages
@@ -95,7 +95,7 @@ def registration_request(request):
 def get_dealerships(request):
     if request.method == "GET":
         context = {}
-        url = "https://9bebcb01.eu-de.apigw.appdomain.cloud/api/dealership"
+        url = "https://66723889-5b6e-46ce-b83b-b75a2ad1b60f-bluemix.cloudantnosqldb.appdomain.cloud/api/dealership"
         # Get dealers from the URL
         context["dealerships"] = get_dealers_from_cf(url)
         # Concat all dealer's short name
@@ -110,10 +110,10 @@ def get_dealerships(request):
 def get_dealer_details(request, dealer_id):
     context = {}
     if request.method == "GET":
-        url = 'https://9bebcb01.eu-de.apigw.appdomain.cloud/api/review'
+        url = 'https://66723889-5b6e-46ce-b83b-b75a2ad1b60f-bluemix.cloudantnosqldb.appdomain.cloud/api/review'
         reviews = get_dealer_reviews_from_cf(url,dealer_id)
         context = {
-            "reviews":  reviews, 
+            "reviews":  reviews,
             "dealer_id": dealer_id
         }
 
@@ -147,15 +147,15 @@ def add_review(request, dealer_id):
             review["car_make"] = car.car_make.name
             review["car_model"] = car.name
             review["car_year"] = car.year
-            
+
             # If the user bought the car, get the purchase date
             if form.get("purchasecheck"):
                 review["purchase_date"] = datetime.strptime(form.get("purchasedate"), "%m/%d/%Y").isoformat()
-            else: 
+            else:
                 review["purchase_date"] = None
 
-            url = "https://9bebcb01.eu-de.apigw.appdomain.cloud/api/review"  
-            json_payload = {"review": review}  
+            url = "https://66723889-5b6e-46ce-b83b-b75a2ad1b60f-bluemix.cloudantnosqldb.appdomain.cloud/api/review"
+            json_payload = {"review": review}
             result = post_request(url, json_payload, dealerId=dealer_id)
             if int(result.status_code) == 200:
                 print("Review posted successfully.")

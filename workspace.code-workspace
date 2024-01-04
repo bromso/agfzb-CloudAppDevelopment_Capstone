@@ -41,6 +41,10 @@
 			"path": "./.vscode"
 		},
 		{
+			"name": "📦 Container",
+			"path": "./.devcontainer"
+		},
+		{
 			"name": "📑 Documentation",
 			"path": "./.github"
 		},

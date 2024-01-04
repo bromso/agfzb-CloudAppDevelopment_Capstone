@@ -33,6 +33,10 @@
 			"path": "./.github/ISSUE_TEMPLATE"
 		},
 		{
+			"name": "🦋 Semantic Release",
+			"path": "./.changeset"
+		},
+		{
 			"name": "📑 Documentation",
 			"path": "./.github"
 		},
@@ -53,13 +57,13 @@
 			"ISSUE_TEMPLATE": true,
 			".github": true,
 			".vscode": true,
+			".changeset": true,
 			"server": true,
 			"functions": true,
 			"cloudant": true,
 			"static": true,
 			"templates": true,
 			"workflows": true,
-			".next": true,
 		},
 		"scm.alwaysShowActions": false,
 		"breadcrumbs.showEnumMembers": true,

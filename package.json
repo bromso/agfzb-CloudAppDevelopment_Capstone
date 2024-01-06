@@ -1,0 +1,56 @@
+{
+  "name": "agfzb-cloudappdevelopment-capstone",
+  "version": "0.0.0",
+  "description": "Capstone project for the IBM Fullstack Developer course using a forked Cloud Application provided by IBM Skillshare Network",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "email": "jonas@odduse.com",
+    "name": "Jonas Bröms",
+    "url": "https://odduse.com"
+  },
+  "maintainers": [
+    {
+      "name": "Jonas Bröms",
+      "email": "jonas@odduse.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bromso/agfzb-CloudAppDevelopment_Capstone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bromso/agfzb-CloudAppDevelopment_Capstone/issues"
+  },
+  "workspaces": [
+    "cloudant/*",
+    "functions/*",
+    "server/*"
+  ],
+  "scripts": {
+    "commit": "nvm use && git-cz"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.0"
+  },
+  "keywords": [
+    "architecture",
+    "structure",
+    "yarn",
+    "workspaces",
+    "ibm",
+    "fullstack",
+    "python",
+		"django",
+		"nodejs",
+    "vscode",
+    "nvm",
+    "node version manager",
+    "visual code"
+  ]
+}

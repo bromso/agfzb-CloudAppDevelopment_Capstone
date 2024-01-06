@@ -1,6 +1,6 @@
 {
   "name": "agfzb-cloudappdevelopment-capstone",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Capstone project for the IBM Fullstack Developer course using a forked Cloud Application provided by IBM Skillshare Network",
   "license": "Apache-2.0",
   "private": true,
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "build": "echo 'Running build script...'",
-		"test": "echo 'Running test script...'"
+    "test": "echo 'Running test script...'"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
@@ -42,8 +42,8 @@
     "ibm",
     "fullstack",
     "python",
-		"django",
-		"nodejs",
+    "django",
+    "nodejs",
     "vscode",
     "nvm",
     "node version manager",

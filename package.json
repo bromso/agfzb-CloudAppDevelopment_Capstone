@@ -2,7 +2,7 @@
   "name": "agfzb-cloudappdevelopment-capstone",
   "version": "0.0.0",
   "description": "Capstone project for the IBM Fullstack Developer course using a forked Cloud Application provided by IBM Skillshare Network",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "private": true,
   "author": {
     "email": "jonas@odduse.com",

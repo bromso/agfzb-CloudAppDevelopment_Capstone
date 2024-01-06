@@ -28,7 +28,8 @@
     "server/*"
   ],
   "scripts": {
-    "commit": "nvm use && git-cz"
+    "build": "echo 'Running build script...'",
+		"test": "echo 'Running test script...'"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",

@@ -22,11 +22,6 @@
   "bugs": {
     "url": "https://github.com/bromso/agfzb-CloudAppDevelopment_Capstone/issues"
   },
-  "workspaces": [
-    "cloudant/*",
-    "functions/*",
-    "server/*"
-  ],
   "scripts": {
     "build": "echo 'Running build script...'",
 		"test": "echo 'Running test script...'"

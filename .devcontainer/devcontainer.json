@@ -1,0 +1,9 @@
+{
+	"name": "agfzb-CloudAppDevelopment_Capstone",
+	"dockerFile": "Dockerfile",
+	"forwardPorts": [8000],
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": ["ms-python.python"]
+}

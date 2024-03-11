@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "Python: Django",
+			"type": "python",
+			"request": "launch",
+			"program": "./server/manage.py",
+			"args": [
+				"runserver"
+			],
+			"django": true,
+		}
+	]
+}
